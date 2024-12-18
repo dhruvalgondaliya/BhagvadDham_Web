@@ -1,6 +1,6 @@
-import { Facebook, Twitter, Youtube, Instagram, Send, Music, Phone, Mail, MapPin } from 'lucide-react'
-import { colors } from '../Utilis/Colors'
-import { Image } from '../components/ui/Image'
+import { Facebook, Twitter, Youtube, Instagram, Send, Music, Phone, Mail, MapPin } from 'lucide-react';
+import { colors } from '../Utilis/Colors';
+import { Image } from '../components/ui/Image';
 import logo from '../images/logoMain.png';
 
 const quickLinks = [
@@ -39,9 +39,7 @@ export function Footer() {
               src={logo}
               alt="Temple Logo"
               width={300}
-              height={80}
-              className="mb-4"
-            />
+              height={80} className="mb-4" />
             <div className="space-y-2">
               <h3 className='text-lg font-semibold text-secondary'>
                 Shree Swaminarayan Sanskardham Gurukul
@@ -107,8 +105,7 @@ export function Footer() {
                   key={social.label}
                   href={social.href}
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
-                  aria-label={social.label}
-                >
+                  aria-label={social.label} >
                   <social.icon className='w-5 h-5 text-primary' />
                 </a>
               ))}

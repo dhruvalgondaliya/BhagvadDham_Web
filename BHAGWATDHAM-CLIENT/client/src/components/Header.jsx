@@ -4,7 +4,7 @@ import { Menu } from 'lucide-react';
 import { Button } from "../components/ui/Button";
 import { Sheet, SheetContent, SheetTrigger } from "../components/ui/Sheet";
 import logo from '../images/logoMain.png';
-import { Image } from '../components/ui/Image'
+import { Image } from '../components/ui/Image';
 import { Link } from "react-router-dom";
 
 const navItems = [
